@@ -358,7 +358,7 @@ def load_header_css():
         /* Dark AI-themed header with advanced animations */
         .attractive-header {
             background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 30%, #16213e 70%, #0f0f23 100%);
-            padding: 2.2rem 2rem;
+            padding: 3rem 2rem;
             border-radius: 20px;
             margin-bottom: 2rem;
             box-shadow:
@@ -828,6 +828,9 @@ def main():
         </div>
         <h1>🤖 AI Image Analyzer</h1>
         <p>Upload an image and ask questions about it using Google's Generative AI</p>
+        <div style="margin-top: 0.8rem; font-size: 0.8rem; opacity: 0.7; color: rgba(200, 220, 255, 0.8);">
+            ✨ Watch the AI Buffer loading animation when analyzing images!
+        </div>
     </div>
     """, unsafe_allow_html=True)
 
